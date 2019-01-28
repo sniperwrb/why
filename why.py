@@ -71,7 +71,7 @@ def v(layer=0):
     if (r4==1):
         x=x+' '+adv()
     if (r1==1):
-        x=x+' that '+why()
+        x=x+' that '+why(layer=layer+1)
     return x
 
 def vi_that():
